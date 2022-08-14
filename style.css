@@ -10,18 +10,22 @@ header {
     
 
 }
+ /*move nav bar to the right*/
 
 .header nav {
-    justify-content: right;
-   
+    
 }
+
+/*add css box styling*/
 
 body {
 
 }
 
 
+section { 
 
+}
 
 
 h1 {
