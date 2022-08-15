@@ -1,7 +1,7 @@
 /*comments*/
 header {
     background-color: lightcoral;   
-    border-bottom: 3px solid coral;
+    border-bottom: 5px solid coral;
 }
 
 .header { 
@@ -13,17 +13,43 @@ header {
  /*move nav bar to the right*/
 
 .header nav {
+    flex: wrap;
     
+}
+nav{
+    text-align:right;
 }
 
 /*add css box styling*/
 
-body {
+body { background: lightgreen;
+    background-image:https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80 ('waterview.gif') ;
 
 }
 
+img { 
+}
 
-section { 
+h2
+
+section{padding: 10px lightblue;
+    margin: 5px;
+   display: flex;
+
+
+}
+div {width: 300px;
+    height: 100px;
+    border: 2px solid green;
+    padding: 25px;
+    margin: 20px;
+
+}
+
+.section { border: 3px solid blue;
+    padding: 10px lightblue;
+    margin: 5px;
+    color: lightgray;
 
 }
 
