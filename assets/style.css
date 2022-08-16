@@ -1,0 +1,210 @@
+/*comments*/
+header {
+    background-color: lightcoral;   
+    border-bottom: 5px solid coral;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header { color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    
+}
+ /*moved nav bar to the right*/    
+
+nav{
+    text-align:right;
+}
+
+/*add css box styling*/
+body { /*background: rgb(236, 207, 169);  */
+  
+}
+
+img { border: outset 2px brown;
+}
+
+p {
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*
+div {background-color: pink
+    ;
+    border-width: 20px 20px;
+    margin: 20px;
+    padding: 20px;px;
+
+}*/
+
+#about{ 
+    width: 200px;
+    height:400px;
+    background-color: pink;
+  
+   /* border: 3px solid brown;
+    border-width: 20px 20px;
+    padding: 10px;
+    margin: 10px ;
+    */
+}
+
+#work{
+    width: 400px;
+    height: 350px;
+    background-color: lightblue;
+
+}
+
+#contact{
+    width: 400px;
+    height: 350px;
+    background-color: lightgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section{padding: 10px lightblue;
+    margin: 5px;
+   display: flex;
+}
+
+.section { border: 3px solid blue;
+    padding: 10px lightblue;
+    margin: 5px;
+    color: lightgray;
+
+}
+.work{
+    width: 400px;
+    Height: 150;
+    float:left;
+}
+
+h1 {
+    
+}
+
+h2 {
+
+}
+ 
+h3 {
+
+}
+/*
