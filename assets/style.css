@@ -1,210 +1,86 @@
 /*comments*/
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*
+Body {
+    background-color: lemonchiffon;
+}
+
 header {
-    background-color: lightcoral;   
-    border-bottom: 5px solid coral;
+    background-color: coral;
+    border-bottom: 5px solid lemonchiffon;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+
 }
 
-.header { color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: underline;
-    
+nav {
+    text-align: right;
+    padding: 20px;
 }
- /*moved nav bar to the right*/    
+ nav a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
 
-nav{
-    text-align:right;
-}
+ }
+ div{
 
-/*add css box styling*/
-body { /*background: rgb(236, 207, 169);  */
-  
-}
+ }
 
-img { border: outset 2px brown;
-}
-
-p {
-    color: brown;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
+#aboutme {
+   text-align:center;
+   /* margin: auto;
+    width: 600px;
+    height: 400px;
+    background-color: tan;
+    border: solid 2px brown;
+    margin: 8px 0px;
+    align-items: center;*/
 /*
-div {background-color: pink
-    ;
-    border-width: 20px 20px;
-    margin: 20px;
-    padding: 20px;px;
-
-}*/
-
-#about{ 
-    width: 200px;
-    height:400px;
-    background-color: pink;
-  
-   /* border: 3px solid brown;
-    border-width: 20px 20px;
-    padding: 10px;
-    margin: 10px ;
-    */
+img {
+    margin: 8px;
+    justify-content: right;
 }
 
-#work{
-    width: 400px;
-    height: 350px;
-    background-color: lightblue;
+#work {
+    width: 100%;
+    height: 500px;
+    background-color: tan;
+    border: solid 2px brown;
+    Margin-bottom: 8px;
+
+}
+#work img {
+
+}
+ #div div{
+
+ }
+
+
+#div {
+    align-items: right;
+    width: auto;
+    height: auto;
+}
+
+#contactme {
+    width: 100%;
+    height: 200px;
+    background-color: tan;
+    border: solid 2px brown;
 
 }
 
-#contact{
-    width: 400px;
-    height: 350px;
-    background-color: lightgreen;
+#img {
+    border: solid 2px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-section{padding: 10px lightblue;
-    margin: 5px;
-   display: flex;
-}
-
-.section { border: 3px solid blue;
-    padding: 10px lightblue;
-    margin: 5px;
-    color: lightgray;
-
-}
-.work{
-    width: 400px;
-    Height: 150;
-    float:left;
-}
-
-h1 {
-    
-}
-
-h2 {
-
-}
- 
-h3 {
-
-}
-/*
+*/
