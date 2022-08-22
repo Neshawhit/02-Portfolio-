@@ -5,14 +5,11 @@
     box-sizing: border-box;
 }
 
-
-
 Body {
     background-color: #FFEEDB;
 }
 
 .mainheader {
-    max-width: 100%;
     background-color: #503B31;
     border-bottom: 5px solid lemonchiffon;
     color: white;
@@ -21,12 +18,16 @@ Body {
     
 }
 
+header {
+    max-width: 100%;
+height: auto;
+}
 nav {
     text-align: right;
     padding: 20px;
     
 }
-/* figure out a way to add spave between nav links and remove the borders*/
+/* figure out a way to add space between nav links and remove the borders*/
 nav a{
     text-decoration: none;
     color: white;
@@ -45,6 +46,8 @@ nav a{
 
 #aboutme img{
     border-radius: 15px;
+    max-width: 100%;
+    height: auto;
 }
 
 .header{ 
@@ -56,19 +59,26 @@ font-size: 50px;
 .header-2{
     color:#503B31;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
+    font-size: 15px;
+    padding: 5px;
 }
-
+.header-2 h2 {
+    color:#503B31;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    padding: 5px;
+}
 #aboutme p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     flex-wrap: wrap;
-    background-color: lemonchiffon;
+    background-color: #FFE7EC;
     margin: 5px;
     border:#503B31 2px solid;
 }
 
 img {
     margin: 8px;
+    
 
 }
 #img {
@@ -85,19 +95,19 @@ img {
     
     Margin-bottom: 8px;
 }
-
-#contactme {
-   
+#work a{
+    font-size: 25px;
 }
 #coming-soon{
     display: flex;
     flex-direction: row;
     
-  } 
+} 
 
 #coming-soon article{
     width: 50%;
 }
+
 
 
 /* 
@@ -107,8 +117,8 @@ img {
     nav {
         flex-direction: column;
     }
-   
-
+    
+    
     nav a {
         color:black;
         background-color:#FFEEDB ;
@@ -134,10 +144,27 @@ div article {
     /* flex: auto; */
     flex-direction: row;
 }
+.img3 {
+    max-width: 75%; 
+    height: auto;
+    
+}
+
+#contactme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#div a {
+align-items: bottom;
+}
+
+
 footer{
     background-color: tan;
     padding:5px;
-
+    
 }
 
   
@@ -158,9 +185,13 @@ footer{
 */
 
 @media only screen and  (max-width: 450px) {
-    /* nav {
+     nav {
         width:100%;
-    }
+        display: flex;
+        justify-content: center;
+        flex-direction: center;
+        align-items: center;
+    } /*
    a img {resize: shrink;
 
     } */
