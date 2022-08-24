@@ -11,7 +11,7 @@ Body {
 
 .mainheader {
     background-color: #503B31;
-    border-bottom: 5px solid lemonchiffon;
+    border-bottom: 5px solid #FBCF84;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
@@ -104,6 +104,8 @@ img {
 
 #work a {
     font-size: 25px;
+    text-decoration: none;
+    color:#503B31 ;
 }
 
 #coming-soon {
@@ -144,6 +146,7 @@ div article {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  
 
 }
 
@@ -153,11 +156,13 @@ div article {
 
 
 footer {
-    background-color: tan;
+    background-color: #FBCF84;
     padding: 5px;
 
 }
-
+ a {
+    color: black;
+}
 
 /*  
 #div div{
